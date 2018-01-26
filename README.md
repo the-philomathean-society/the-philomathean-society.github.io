@@ -1,4 +1,4 @@
-**Welcome to the new website for the Philomathean Society! This website is a resource for our debaters of all levels looking to improve their skills.**
+Welcome to the new website for the Philomathean Society! This website is a resource for our debaters of all levels looking to improve their skills.
 
 ---
 ## [Case Construction](/andoverphilo/curriculum/case-construction.md)
