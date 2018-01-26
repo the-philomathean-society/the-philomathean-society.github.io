@@ -1,0 +1,21 @@
+/* This file contains the basic CSS for typography, etc., that is used across the entire site. */
+
+/* use IBM Plex fonts */
+@import url("ibm-type.min.css");
+
+/* note that this loads fonts we may not ever use: TODO remove extra fonts for loading time */
+
+/* use IBM Plex Sans for default font */
+* {
+    font-family: "IBM Plex Sans";
+}
+
+/* for things that should be code or pre, use IBM Plex Mono instead */
+code, pre {
+    font-family: "IBM Plex Mono";
+}
+
+/* now set some weights: for h1 and h2, use a light weight */
+h1, h2 {
+    font-weight: 300;
+}
