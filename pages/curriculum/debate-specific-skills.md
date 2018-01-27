@@ -2,7 +2,7 @@
 
 Information on several specific debate skills and techniques.
 
-[Framing and Defining](/debate-specific-skills/framing-and-defining.md)
+[Framing and Definitions](/debate-specific-skills/framing-and-definitions.md)
 
 [Organization](/debate-specific-skills/organization.md)
 * [Signposting](/debate-specific-skills/organization/signposting.md)

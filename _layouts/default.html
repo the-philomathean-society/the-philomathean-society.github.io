@@ -13,21 +13,28 @@
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+<style>
+img {
+  height: 200px;
+  position: relative;
+}
+</style>
 </head>
   <body>
     <div class="wrapper">
       <header>
+        <img src="{{ '/philo_logo.png' | relative_url}}" alt="logo" class="inline" />
         <h1><a href="{{ '/' | relative_url }}" style="display: inline;">Philo@PA</a>: The Philomathean Society</h1>
         <hr>
         <p>A friendly guide to parliamentary extemporaneous debate at Phillips Academy.</p>
         <hr>
         <p>
           <a href="{{ '/' | relative_url }}">Home</a> |
-          <a href="{{ '/andoverphilo/curriculum.html' | relative_url}}">Curriculum</a> |
-          <a href="{{ '/andoverphilo/drills.html' | relative_url}}">Drills</a> |
-          <a href="{{ '/andoverphilo/drills.html' | relative_url}}">Videos</a> |
-          <a href="{{ '/andoverphilo/debate-format.html' | relative_url}}">Debate Format</a> |
-          <a href="{{ '/andoverphilo/resources.html' relative_url}}">Resources</a>
+          <a href="{{ '/pages/curriculum.html' | relative_url}}">Curriculum</a> |
+          <a href="{{ '/pages/drills.html' | relative_url}}">Drills</a> |
+          <a href="{{ '/pages/videos.html' | relative_url}}">Videos</a> |
+          <a href="{{ '/pages/debate-format.html' | relative_url}}">Debate Format</a> |
+          <a href="{{ '/pages/resources.html' relative_url}}">Resources</a>
         </p>
       </header>
       <section>
