@@ -4,3 +4,4 @@ The Philomathean Society competes as part of the Debating Association of New Eng
 
 [Procedure](/debate-format/procedure.md)
 [Scoring](/debate-format/scoring.md)
+[Speeches](/debate-format/speeches.md)
