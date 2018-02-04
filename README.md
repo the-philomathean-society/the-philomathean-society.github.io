@@ -47,7 +47,6 @@ Welcome to the new website for the Philomathean Society! This website is a resou
 ## [Speeches](/pages/debate-format/speeches.md)
 ## [Scoring](/pages/debate-format/scoring.md)
 
-# [__Resources__](/pages/resources.md)
-## [Case Construction](/pages/resources/case-construction.md)
-## [Philosophy and Economics](/pages/resources/philosophy-and-economics.md)
-## [Refutation](/pages/resources/refutation.md)
+# [__Additional Resources__](/pages/additional-resources.md)
+## [Websites](/pages/addtional-resources/websites.md)
+## [Readings](/pages/additional-resources/readings.md)
