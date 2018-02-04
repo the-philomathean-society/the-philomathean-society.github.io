@@ -79,8 +79,15 @@
 * Focuses on why we do things and how to make someone a ‘better’ or ‘more moral’ person
 
 **Videos**:
+
+Kant and Categorical Imperatives:
+
 [![Kant and Categorical Imperatives](https://img.youtube.com/vi/8bIys6JoEDw/0.jpg)](https://www.youtube.com/watch?v=8bIys6JoEDw "Kant and Categorical Imperatives")
 
-[![Philosophy  - Ethics: Utilitarianism, Part 1](https://img.youtube.com/vi/uvmz5E75ZIA/0.jpg)](https://www.youtube.com/watch?v=uvmz5E75ZIA "Philosophy  - Ethics: Utilitarianism, Part 1")
+Philosophy - Ethics: Utilitarianism, Part 1:
 
-[![Philosophy  - Ethics: Utilitarianism, Part 2](https://img.youtube.com/vi/uGDk23Q0S9E/0.jpg)](https://www.youtube.com/watch?v=uGDk23Q0S9E "Philosophy  - Ethics: Utilitarianism, Part 2")
+[![Philosophy - Ethics: Utilitarianism, Part 1](https://img.youtube.com/vi/uvmz5E75ZIA/0.jpg)](https://www.youtube.com/watch?v=uvmz5E75ZIA "Philosophy - Ethics: Utilitarianism, Part 1")
+
+Philosophy - Ethics: Utilitarianism, Part 2:
+
+[![Philosophy - Ethics: Utilitarianism, Part 2](https://img.youtube.com/vi/uGDk23Q0S9E/0.jpg)](https://www.youtube.com/watch?v=uGDk23Q0S9E "Philosophy - Ethics: Utilitarianism, Part 2")

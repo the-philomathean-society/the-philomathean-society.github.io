@@ -8,6 +8,7 @@ Near the end of the round both you and your opponents will probably have several
 * **Reversibility** - Once your impact happens is there any hope for the world? Ex: One cannot reverse the effects of extinction but one can reverse the effects of an economic decline
 
 **Drill**
+
 Compare the following pairs of competing impacts. Pick one of each pair and show why it is worse than its companion impact. Then show why the reverse comparison is true.
 
 * Economic growth vs. environmental degradation
@@ -16,5 +17,8 @@ Compare the following pairs of competing impacts. Pick one of each pair and show
 * Earthquakes vs. flooding
 * Nuclear proliferation vs. biological weapons proliferation
 
-**Video**:
+**Video**
+
+Introduction to Impact Calculus:
+
 [![Introduction to Impact Calculus](https://img.youtube.com/vi/oUAMRUVkemY/0.jpg)](https://www.youtube.com/watch?v=oUAMRUVkemY "Introduction to Impact Calculus")
