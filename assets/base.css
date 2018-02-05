@@ -7,6 +7,11 @@
        url('Aileron-Regular.svg') format('svg');
 }
 
+img {
+  position: relative;
+  top: 100px;
+}
+
 /* weights */
 h1, h2 {
     font-weight: 300;
