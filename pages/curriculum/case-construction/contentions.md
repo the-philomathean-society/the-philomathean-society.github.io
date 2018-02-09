@@ -11,7 +11,8 @@ Each contention (or argument) has three parts:
 
 **Example**
 
-<center>School uniforms are good for student productivity because students are more likely to have higher levels of concentration if they aren’t distracted by their clothing.</center>
+<center>*School uniforms are good for student productivity because students are more likely to have higher levels of concentration if they aren’t distracted by their clothing.*</center>
+
 
 The **claim** is that school uniforms are good for student productivity, and the **warrant** (or reasoning) is that students will benefit from higher levels of concentration if we decrease any distractions. What about the impact? The **impact** of higher student productivity could be that students get better grades, or benefit from a better learning environment overall.
 

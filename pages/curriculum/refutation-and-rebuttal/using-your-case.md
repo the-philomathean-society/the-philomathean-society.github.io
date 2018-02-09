@@ -6,4 +6,4 @@ Identify points of similarity between both cases; pointing out similarities befo
 
 **Example**
 
-<center>Side government says that we should make tipping mandatory in order to improve the quality of life for many American laborers. We agree that adequate compensation is key to quality of life, we believe that making tipping mandatory will only encourage employers to lower the wages they pay to their employees.</center>
+<center>*Side government says that we should make tipping mandatory in order to improve the quality of life for many American laborers. We agree that adequate compensation is key to quality of life, we believe that making tipping mandatory will only encourage employers to lower the wages they pay to their employees.*</center>
