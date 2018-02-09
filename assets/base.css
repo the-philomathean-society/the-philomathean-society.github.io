@@ -1,0 +1,18 @@
+/* This file contains the basic CSS for typography, etc., that is used across the entire site. */
+@font-face {
+  font-family: 'Aileron';
+  src: url('Aileron-Regular.eot');
+  src: url('Aileron-Regular.woff') format('woff'),
+       url('Aileron-Regular.ttf') format('truetype'),
+       url('Aileron-Regular.svg') format('svg');
+}
+
+img {
+  position: relative;
+  top: 100px;
+}
+
+/* weights */
+h1, h2 {
+    font-weight: 300;
+}
