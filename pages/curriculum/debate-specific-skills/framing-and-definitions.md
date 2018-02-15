@@ -15,7 +15,7 @@ You don’t want to have debates using two different definitions. This leads to 
 
 **Example**
 
-<center>This house would ban non-disclosure agreements in cases of sexual assault.
-Definitions: Non-disclosure agreements can refer to only those made after a sexual assault accusation, or those that are included in the contract when a person is hired.</center>
+<center>T*his house would ban non-disclosure agreements in cases of sexual assault.
+Definitions: Non-disclosure agreements can refer to only those made after a sexual assault accusation, or those that are included in the contract when a person is hired.*</center>
 
 This has a major impact on the question of whether victims willingly enter NDAs. If you include only after-accusation NDAs, neg has a stronger case because they can say victims willingly and consciously enter them.

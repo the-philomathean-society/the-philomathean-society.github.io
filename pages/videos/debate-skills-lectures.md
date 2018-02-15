@@ -1,6 +1,8 @@
 # Debate Skills Lectures
 
-These videos are all very helpful for any people looking to advance their skills as a debater, but a decent number of them apply to a slightly different parliamentary format to the one we use. Keep that in mind when going through the videos / taking notes, as some information will be counterproductive or extraneous. There are separate documents for novice-focused and advanced-focused videos, but you aren’t required to just look at one or the other— different topics will probably need to be brushed up on by different people. One could be an advanced level debater but still only have a novice level understanding of POIs.
+These videos are all very helpful for any people looking to advance their skills as a debater, but a decent number of them apply to a slightly different parliamentary format to the one we use. Keep that in mind when going through the videos / taking notes, as some information will be counterproductive or extraneous. 
+
+There are separate documents for novice-focused and advanced-focused videos, but you aren’t required to just look at one or the other— different topics will probably need to be brushed up on by different people. One could be an advanced level debater but still only have a novice level understanding of POIs.
 
 
 
