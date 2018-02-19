@@ -4,7 +4,7 @@ Each round, you and your partner will have ten minutes alone together to build y
 
 The general rule of thumb is to use three points, as that provides a solid baseline that you can actually elaborate upon within your speech without leaving extra time remaining or rushing through your points, but don't be afraid to run two or four as long as you manage to fill time and still have a solid case that you think will win. In fact, when desperate for points (especially on government), you can even run a case with only one significant argument by splitting it into sub-categories-- the first establishing a definite need for change from the status quo, the second showing how the resolution solves the issue and does so uniquely, and the third explaining additional benefits.
 
-To fill out each point, us this acronym: ARESI/ARESR
+To fill out each point, use this acronym: **ARESI/ARESR**
 
 **A**rgument: Clearly state what the contention is. Often, you should come up with a catchy tagline to refer to when first introducing your point, so the judge can remember it and so you can refer back to it easily in the future.
 
