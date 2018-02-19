@@ -8,7 +8,9 @@ Identify points of similarity between both cases; pointing out similarities befo
 
   "Side government says that we should make tipping mandatory in order to improve the quality of life for many American laborers. We agree that adequate compensation is key to quality of life, we believe that making tipping mandatory will only encourage employers to lower the wages they pay to their employees."
 
+
 **Counterplanning**
+
 This can also be done by creating a case that takes their points and net benefits and turns them into ones of your own. The way to go about this (often only on the negative/opposition side) is to create a counterplan: agree with the reasoning they give for their plan/policy, agree with whichever points they have that still exist under your counterplan, and then explain how your plan gets rid of extra contingencies and/or produces more net benefits in a unique fashion. This way, you can take their positive points and add your own that they can't then just add on as well.
 
 **Example**
