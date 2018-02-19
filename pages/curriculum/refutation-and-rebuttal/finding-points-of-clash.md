@@ -4,9 +4,12 @@ In order to effectively attack your opponent's points, you need to identify area
 
 **Example**
 
-<center><b>Your contentions</b>: marijuana is detrimental to health, expensive, and gateway drug.
+<b>Your contentions</b>: marijuana is detrimental to health, expensive, and gateway drug.
 <br><b>Theirs</b>: marijuana is affordable, does not cause addiction, and has no proven harms.
-<br><b>Points of clash</b>: affordability, potential for future harm, and health effects.</center>
+<br><b>Points of clash</b>: affordability, potential for future harm, and health effects.
+
+
+Points of clash are best addressed later on in the debate, when both sides have had a chance to fully formulate and elaborate on their points. Oftentimes debaters will use a part of their last speech (Either in the last few minutes of the Leader of the Opposition speech or during the final Prime Minister speech) to address points of clash and how they fall on their side of the house. It's extremely important to do this: it shows the judge that you are actually interacting head-on with the opponents' case and explaining exactly how your case supersedes theirs, and does so in a way that doesn't seem unfair-- you aren't just saying that their points are wrong and yours are right, but instead are explaining why on a direct contradiction, the judge should believe your side has the correct view,
 
 **Video**
 
