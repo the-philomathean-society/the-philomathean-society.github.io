@@ -9,7 +9,7 @@ Welcome to the new website for the Philomathean Society! This website is a resou
 
 ## [Refutation and Rebuttal](/pages/curriculum/refutation-and-rebuttal.md)
 * [Using Your Case to Refute and Rebut](/pages/curriculum/refutation-and-rebuttal/using-your-case.md)
-* [Finding Points of Clash](/pages/curriculum/refutation-and-rebuttal/finding-points-of-clash.m)
+* [Finding Points of Clash](refutation-and-rebuttal/finding-points-of-clash.md)
 * [Attacking Their Logic](/pages/curriculum/refutation-and-rebuttal/attacking-their-logic.md)
 
 ## [Presentation](/pages/curriculum/presentation.md)
