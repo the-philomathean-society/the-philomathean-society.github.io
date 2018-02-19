@@ -24,15 +24,15 @@ Welcome to the new website for the Philomathean Society! This website is a resou
 * [Framing and Definitions](/pages/curriculum/debate-specific-skills/framing-and-definitions.md)
 * [Organization](/pages/curriculum/debate-specific-skills/organization.md)
   * [Signposting](/pages/curriculum/debate-specific-skills/organization/signposting.md)
-  * [Filling Time](/pages/curriculum/debate-specific-skills/organization/filling-time)
+  * [Filling Time](/pages/curriculum/debate-specific-skills/organization/filling-time.md)
 * [Flowing](/pages/curriculum/debate-specific-skills/flowing.md)
 * [Clash and Crux](/pages/curriculum/debate-specific-skills/clash-and-crux.md)
 
 # [__General Knowledge__](/pages/curriculum/general-knowledge.md)
 ## [Philosophy](/pages/curriculum/general-knowledge/philosophy.md)
 ## [Politics](/pages/curriculum/general-knowledge/politics.md)
-## [Current Events](/pages/curriculum/general-knowledge/current-events)
-## [Economics](/pages/curriculum/general-knowledge/economics)
+## [Current Events](/pages/curriculum/general-knowledge/current-events.md)
+## [Economics](/pages/curriculum/general-knowledge/economics.md)
 
 # [__Drills__](/pages/drills.md)
 ## [Speaking Drills](/pages/drills/speaking-drills.md)
