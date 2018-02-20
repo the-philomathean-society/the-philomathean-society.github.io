@@ -15,3 +15,5 @@ There are many different ways to rebut or refute the arguments put forth by your
 [Attacking Their Logic](refutation-and-rebuttal/attacking-their-logic.md)
 
 [POIS](refutation-and-rebuttal/pois.md)
+
+[Other Common Rebuttal Strategies](refutation-and-rebuttal/other-common-rebuttal-strategies.md)
