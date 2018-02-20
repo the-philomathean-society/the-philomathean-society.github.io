@@ -1,0 +1,11 @@
+# POIS (Or Points of Information)
+
+One way to help tear down your opponents' points is to ask POIs during the round, or Points of Information. These, essentially, are questions you are allowed to ask during the round-- after the first minute of the first Prime Minister speech, between the first and last minutes of the Member of the Opposition and Minister of the Crown's speeches (in the middle 6 minutes), and after the first minute and before the last three of the Leader of the Opposition's speech. 
+
+POIs generally are quick, pointed **questions**: don't simply state something you think runs counter to their ideas, although you are able to "lead the witness" by asking "how they reconcile" with a statement or fact.
+
+POIs are best used to disorient your opponents and interject your own rebuttal or rebuilding within their speech-- make them look like they don't understand the issue, provide some information that clearly messes with their train of logic, or get them to say something they'll regret later! See POIs as a mini-rebuttal you're allowed to have **inside** the opponents' speeches-- they are tremendously useful if used correctly!
+
+In DANEIS, each person is only expected to take **ONE** POI-- you may take more and you certainly may ask more (if you have good questions it's recommended, but if you don't, don't appear like you're wasting their speech time), but often it's counter-productive to do so. Especially if you are receiving POIs, don't be afraid to turn them down, especially if you're on a particularly controversial point. **DO NOT** take POIs during your rebuttal of their points-- it will only let them rebuild their points once more, meaning you'll have to rebut it twice! Take them during your constructive portion instead. Additionally, don't accept them in the middle of your sentence or in the middle of a point, you can wait until your sentence is done or tell them that you will wait until the end of your train of logic.
+
+Motioning for a POI is easy: Simply stand up or raise your hand (or both!) People sometimes will do fancy flourishes or hold their hand on their head and stick out their other palm, if you want to do that. Dismiss a POI by simply saying "not now" or by motioning downwards with your hand.
