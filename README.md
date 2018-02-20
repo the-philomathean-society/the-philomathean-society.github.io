@@ -11,6 +11,8 @@ Welcome to the new website for the Philomathean Society! This website is a resou
 * [Using Your Case to Refute and Rebut](/pages/curriculum/refutation-and-rebuttal/using-your-case.md)
 * [Finding Points of Clash](/pages/curriculum/refutation-and-rebuttal/finding-points-of-clash.md)
 * [Attacking Their Logic](/pages/curriculum/refutation-and-rebuttal/attacking-their-logic.md)
+* [POIS](/pages/curriculum/refutation-and-rebuttal/pois.md)
+* [Other Rebuttal Strategies](/pages/curriculum/refutation-and-rebuttal/other-rebuttal-strategies.md
 
 ## [Presentation](/pages/curriculum/presentation.md)
 * [Emotional Appeal](/pages/curriculum/prensentation/emotional-appeal.md)
