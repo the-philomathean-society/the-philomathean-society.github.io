@@ -13,3 +13,5 @@ There are many different ways to rebut or refute the arguments put forth by your
 [Finding Points of Clash](refutation-and-rebuttal/finding-points-of-clash.md)
 
 [Attacking Their Logic](refutation-and-rebuttal/attacking-their-logic.md)
+
+[POIS](refutation-and-rebuttal/pois.md)
