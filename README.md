@@ -15,7 +15,7 @@ Welcome to the new website for the Philomathean Society! This website is a resou
 * [Other Common Rebuttal Strategies](/pages/curriculum/refutation-and-rebuttal/other-common-rebuttal-strategies.md)
 
 ## [Presentation](/pages/curriculum/presentation.md)
-* [Emotional Appeal](/pages/curriculum/prensentation/emotional-appeal.md)
+* [Emotional Appeal](/pages/curriculum/presentation/emotional-appeal.md)
 * [Body Language](/pages/curriculum/presentation/body-language.md)
 * [Vocal Pitch](/pages/curriculum/presentation/vocal-pitch.md)
 * [Fluency](/pages/curriculum/presentation/fluency.md)
