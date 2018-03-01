@@ -22,7 +22,7 @@ Welcome to the new website for the Philomathean Society! This website is a resou
 * [Clarity](/pages/curriculum/presentation/clarity.md)
 * [Avoiding Filler Words](/pages/curriculum/presentation/avoiding-filler-words.md)
 
-## [Debate Specific Skills](/pages/curriculum/debate-specific-skills.md)
+## [Debate-Specific Skills](/pages/curriculum/debate-specific-skills.md)
 * [Framing and Definitions](/pages/curriculum/debate-specific-skills/framing-and-definitions.md)
 * [Organization](/pages/curriculum/debate-specific-skills/organization.md)
   * [Signposting](/pages/curriculum/debate-specific-skills/organization/signposting.md)
@@ -50,5 +50,5 @@ Welcome to the new website for the Philomathean Society! This website is a resou
 ## [Scoring](/pages/debate-format/scoring.md)
 
 # [__Additional Resources__](/pages/additional-resources.md)
-## [Websites](/pages/addtional-resources/websites.md)
+## [Websites](/pages/additional-resources/websites.md)
 ## [Readings](/pages/additional-resources/readings.md)
