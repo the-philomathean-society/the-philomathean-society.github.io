@@ -4,7 +4,26 @@
 body {
   background: #f1f2ff;
 }
-/* weights */
+    nav {
+            display: flex;
+            justify-content: center;
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+            background: #352f5d;
+        }
+        
+        nav a {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
 h1{
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;  
