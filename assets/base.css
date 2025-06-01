@@ -39,7 +39,7 @@
   }
   .main-section::before,
   .main-section::after {
-    width: 10%; 
+    width: 10vw; 
   }
   .title {
     padding: 0 0.5rem; 
