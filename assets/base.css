@@ -1,18 +1,13 @@
 /* This file contains the basic CSS for typography, etc., that is used across the entire site. */
-@font-face {
-  font-family: 'Aileron';
-  src: url('Aileron-Regular.eot');
-  src: url('Aileron-Regular.woff') format('woff'),
-       url('Aileron-Regular.ttf') format('truetype'),
-       url('Aileron-Regular.svg') format('svg');
-}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap');
 
-img {
-  position: relative;
-  top: 100px;
+body {
+  background: #f1f2ff;
 }
-
 /* weights */
-h1, h2 {
-    font-weight: 300;
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;  
+  font-size: 70;
+  color: #352f5d;
 }
