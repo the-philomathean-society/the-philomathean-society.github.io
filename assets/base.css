@@ -15,12 +15,21 @@
     text-align: center;
     width: 100%;
   }
-  .title {
-    font-size: clamp(1rem, 4vw, 1.5rem);
-  }
-  .title span:last-child {
-    font-size: clamp(0.5rem, 2vw, 0.5rem);
-  }
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #352f5d;
+  margin: 0;
+  line-height: 1.1;
+  font-size: clamp(2rem, 6vw, 4rem); /* Scales between 2rem and 4rem */
+}
+.title span:last-child {
+  font-size: clamp(1.1rem, 3vw, 1.7rem);
+  letter-spacing: 0.1em;
+  color: #514b76;
+}
+
   .main-section {
     padding: 32px 0 24px 0;
   }
@@ -108,17 +117,17 @@ h1{
   right: 0;
 }
 
-.title{
-  font-size: 4em;
+.title {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   letter-spacing: 0.06em;
   color: #352f5d;
   margin: 0;
   line-height: 1.1;
+  font-size: clamp(2rem, 6vw, 4rem); /* Scales between 2rem and 4rem */
 }
 .title span:last-child {
-  font-size: 0.7em;
+  font-size: clamp(1.1rem, 3vw, 1.7rem);
   letter-spacing: 0.1em;
   color: #514b76;
 }
