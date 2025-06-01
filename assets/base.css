@@ -5,6 +5,7 @@
   nav {
     flex-direction: column;
     height: auto;
+    width: vw;
     padding: 0;
     align-items: flex-start;
   }
@@ -14,10 +15,10 @@
     padding-left: 1.5rem;
   }
   .title {
-    font-size: 8vw;
+    font-size: 1vw;
   }
   .title span:last-child {
-    font-size: 4vw;
+    font-size: 0.5vw;
   }
 }
 
