@@ -4,25 +4,32 @@
 body {
   background: #f1f2ff;
 }
-    nav {
-            display: flex;
-            justify-content: center;
-            padding: 2rem 0;
-            border-bottom: 1px solid #ddd;
-            background: #352f5d;
-        }
         
-        nav a {
-            font-family: 'Cormorant Garamond', serif;
-            font-weight: 600;
-            font-size: 1.2rem;
-            color: white;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: color 0.3s ease;
-        }
+nav {
+  background: #39355a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  height: 90px;
+  justify-content: flex-start;
+}
+nav a {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.nav-logo {
+  height: 70px;
+  margin-right: 34px;
+}
 
 h1{
   font-family: 'Cormorant Garamond', serif;
@@ -30,4 +37,64 @@ h1{
   font-size: 70;
   color: #352f5d;
   justify-content: center;
+}
+
+.main-section {
+  background: #e6e7f2;
+  text-align: center;
+  padding: 80px 0 50px 0;
+  position: relative;
+}
+
+.main-section::before,
+.main-section::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 24%;
+  height: 2px;
+  background: #b8b5d6;
+}
+
+.main-section::before {
+  left: 0;
+}
+
+.main-section::after {
+  right: 0;
+}
+
+.title{
+  font-size: 4rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #39355a;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.title span {
+  display: block;
+}
+
+.society-bg-logo {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  opacity: 0.07;
+  z-index: 0;
+  width: 340px;
+  height: auto;
+}
+
+.footer-bar {
+  background: #39355a;
+  color: #e6e7f2;
+  text-align: center;
+  padding: 28px 0;
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
 }
