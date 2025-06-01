@@ -1,6 +1,27 @@
 /* This file contains the basic CSS for typography, etc., that is used across the entire site. */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap');
 
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    align-items: flex-start;
+  }
+  nav a {
+    margin: 1rem 0;
+    font-size: 1rem;
+    padding-left: 1.5rem;
+  }
+  .title {
+    font-size: 8vw;
+  }
+  .title span:last-child {
+    font-size: 4vw;
+  }
+}
+
+
 html, body {
   height: 100%;
   margin: 0;
@@ -22,6 +43,7 @@ nav {
   padding: 0 40px;
   height: 90px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 nav a {
   font-family: 'Cormorant Garamond', serif;
