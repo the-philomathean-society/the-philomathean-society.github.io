@@ -9,10 +9,9 @@ html, body {
 
 body {
   background: #f1f2ff;
-}
-   
-.main-section {
-  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
@@ -49,6 +48,10 @@ h1{
   text-align: center;
   padding: 80px 0 50px 0;
   position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
 }
 
 .main-section::before,
@@ -71,7 +74,7 @@ h1{
 }
 
 .title{
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   letter-spacing: 0.06em;
