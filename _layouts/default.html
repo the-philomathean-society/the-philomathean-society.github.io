@@ -13,43 +13,17 @@
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-<style>
-img {
-  height: 200px;
-  position: static;
-}
-</style>
-</head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <img src="{{ '/philo_logo.png' | relative_url}}" alt="logo" class="inline" />
-        <h1><a href="{{ '/' | relative_url }}" style="display: inline;">Philo@PA</a>: The Philomathean Society</h1>
-        <hr>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Case Construction</a>
+        <a href="#">Refutation</a>
+        <a href="#">t</a>
+    </nav>
+    
+    <div>
+        <h1>THE PHILOMATHEAN SOCIETY</h1>
         <p>A friendly guide to parliamentary extemporaneous debate at Phillips Academy.</p>
-        <hr>
-        <p>
-          <a href="{{ '/' | relative_url }}">Home</a> |
-          <a href="{{ '/pages/curriculum.html' | relative_url}}">Curriculum</a> |
-          <a href="{{ '/pages/drills.html' | relative_url}}">Drills</a> |
-          <a href="{{ '/pages/videos.html' | relative_url}}">Videos</a> |
-          <a href="{{ '/pages/debate-format.html' | relative_url}}">Debate Format</a> |
-          <a href="{{ '/pages/additional-resources.html' | relative_url}}">Additional Resources</a>
-        </p>
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        <p>This website is maintained by the board of the Philomathean Society at Phillips Academy.</p>
-        <p>Hosted on GitHub Pages.</p>
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">View on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
-      </footer>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-  </body>
+</body>
 </html>
