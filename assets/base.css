@@ -2,26 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap');
 
 @media (max-width: 600px) {
-  nav {
+ nav {
     flex-direction: column;
+    align-items: center;
     height: auto;
-    width: vw;
-    padding: 0;
-    align-items: flex-start;
+    padding: 0.5rem 0;
   }
   nav a {
-    margin: 1rem 0;
-    font-size: 1rem;
-    padding-left: 1.5rem;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
   }
   .title {
-    font-size: 1vw;
+    font-size: clamp(2rem, 8vw, 3.5rem);
   }
   .title span:last-child {
-    font-size: 0.5vw;
+    font-size: clamp(1rem, 4vw, 1.5rem);
   }
 }
-
 
 html, body {
   height: 100%;
@@ -97,7 +97,7 @@ h1{
 }
 
 .title{
-  font-size: 1vw;
+  font-size: 4em;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   letter-spacing: 0.06em;
@@ -106,7 +106,7 @@ h1{
   line-height: 1.1;
 }
 .title span:last-child {
-  font-size: 0.5vw;
+  font-size: 2em;
   letter-spacing: 0.1em;
   color: #514b76;
 }
