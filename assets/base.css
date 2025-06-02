@@ -164,3 +164,66 @@ h1{
   font-family: 'Comorant Garamond', serif;
   font-weight: 300;
 }
+
+body {
+  font-family: 'EB Garamond', serif;
+  margin: 0;
+  background-color: #f1f2ff;
+  color: #352f5d;
+  line-height: 1.6;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 80px 60px;
+}
+
+.heading-1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #352f5d;
+}
+
+.heading-2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #352f5d;
+  margin-top: 60px;
+}
+
+.heading-3 {
+  font-family: 'EB Garamond', serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: #352f5d;
+  padding: 10px 0;
+  margin-top: 30px;
+  width: 100vw;
+  margin-left: calc(-60px);
+  margin-right: calc(-60px);
+}
+
+.heading-inner {
+  max-width: calc(100% - 120px);
+  margin: 0 auto;
+}
+
+.text {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: #352f5d;
+  margin-bottom: 20px;
+}
+
+.media {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
