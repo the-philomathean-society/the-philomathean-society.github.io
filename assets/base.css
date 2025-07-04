@@ -194,6 +194,7 @@ body {
   text-transform: uppercase;
   color: #352f5d;
   margin-top: 60px;
+  margin-left: 5vw;
 }
 
 .subsection {
@@ -205,6 +206,7 @@ body {
   padding: 10px 0;
   margin-top: 30px;
   width: 100vw;
+  margin-left: 5vw;
 }
 
 .heading-inner {
@@ -217,6 +219,7 @@ body {
   font-size: 20px;
   color: #352f5d;
   margin-bottom: 20px;
+  margin-left: 5vw;
 }
 
 .media {
