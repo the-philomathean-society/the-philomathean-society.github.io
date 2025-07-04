@@ -1,51 +1,5 @@
 /* This file contains the basic CSS for typography, etc., that is used across the entire site. */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap');
-/* phone css settings */
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
-    padding: 0.5rem 0;
-    width: 100%;       
-    box-sizing: border-box; 
-    overflow: visible;
-  }
-  nav a {
-    margin: 0.5rem 0;
-    font-size: 0.7rem;
-    text-align: center;
-  }
-.title {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 400;
-  letter-spacing: 0.06em;
-  color: #352f5d;
-  margin: 0;
-  line-height: 1.1;
-  font-size: clamp(2rem, 6vw, 4rem);
-  padding: 0 0.5rem; 
-}
-.title span:last-child {
-  font-size: clamp(1.1rem, 3vw, 1.7rem);
-  letter-spacing: 0.1em;
-  color: #514b76;
-}
-
-  .main-section {
-    padding: 32px 0 24px 0;
-  }
-  .footer-bar {
-    font-size: 0.7rem;
-    padding: 8px 8px;
-  }
-  .main-section::before,
-  .main-section::after {
-    width: 5vw; 
-  }
-}
 
 /* computer css settings */
 
@@ -247,4 +201,51 @@ body {
   margin: 20px auto;
   max-width: 100%;
   height: auto;
+}
+
+/* phone css settings */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 0.5rem 0;
+    width: 100%;       
+    box-sizing: border-box; 
+    overflow: visible;
+  }
+  nav a {
+    margin: 0.5rem 0;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #352f5d;
+  margin: 0;
+  line-height: 1.1;
+  font-size: clamp(2rem, 6vw, 4rem);
+  padding: 0 0.5rem; 
+}
+.title span:last-child {
+  font-size: clamp(1.1rem, 3vw, 1.7rem);
+  letter-spacing: 0.1em;
+  color: #514b76;
+}
+
+  .main-section {
+    padding: 32px 0 24px 0;
+  }
+  .footer-bar {
+    font-size: 0.7rem;
+    padding: 8px 8px;
+  }
+  .main-section::before,
+  .main-section::after {
+    width: 5vw; 
+  }
 }
