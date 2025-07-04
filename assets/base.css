@@ -200,7 +200,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  margin-top: 2vh;
   color: #352f5d;
 }
 
@@ -239,6 +238,7 @@ body {
   color: #352f5d;
   margin-bottom: 20px;
   margin-left: 5vw;
+  margin-top: 2vw;
 }
 
 .media {
