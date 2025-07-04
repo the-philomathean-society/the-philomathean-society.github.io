@@ -25,7 +25,8 @@
   color: #352f5d;
   margin: 0;
   line-height: 1.1;
-  font-size: clamp(2rem, 6vw, 4rem); /* Scales between 2rem and 4rem */
+  font-size: clamp(2rem, 6vw, 4rem);
+  padding: 0 0.5rem; 
 }
 .title span:last-child {
   font-size: clamp(1.1rem, 3vw, 1.7rem);
@@ -44,9 +45,6 @@
   .main-section::after {
     width: 5vw; 
   }
-  .title {
-    padding: 0 0.5rem; 
-  }
 }
 
 /* computer css settings */
@@ -57,14 +55,12 @@ html, body {
   padding: 0;
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
   background: #f1f2ff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
 
 nav {
   background: #352f5d;
