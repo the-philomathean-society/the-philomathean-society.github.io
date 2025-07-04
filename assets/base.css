@@ -187,6 +187,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  margin-top: 2vh;
   color: #352f5d;
 }
 
@@ -195,7 +196,7 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   color: #352f5d;
-  margin-top: 4vh;
+  margin-top: 2vh;
   margin-left: 5vw;
 }
 
