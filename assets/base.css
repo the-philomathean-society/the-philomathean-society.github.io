@@ -179,7 +179,9 @@ body {
   width: calc(100% + 8vw);    
   text-align: left;
   padding-left: 9vw;     
-  padding-top: 3vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+
 }
 
 .heading-inner {
@@ -247,5 +249,67 @@ body {
   .main-section::before,
   .main-section::after {
     width: 5vw; 
+  }
+  body {
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    background-color: #f1f2ff;
+    color: #352f5d;
+    line-height: 1.6;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 4vw 4vw;
+  }
+  
+  .pagetitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #352f5d;
+  }
+  
+  .section {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #352f5d;
+    margin-top: 2vh;
+    margin-left: 5vw;
+  }
+  
+  .subsection {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #352f5d;
+    margin-top: 30px;
+    width: 100vw;
+    margin-left: -4vw;
+    margin-right: -4vw;       
+    width: calc(100% + 8vw);    
+    text-align: left;
+    padding-left: 9vw;     
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  
+  .heading-inner {
+    max-width: calc(100% - 120px);
+    margin: 0 auto;
+  }
+  
+  .text {
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    color: #352f5d;
+    margin-bottom: 20px;
+    margin-left: 5vw;
+    margin-top: 2vw;
   }
 }
