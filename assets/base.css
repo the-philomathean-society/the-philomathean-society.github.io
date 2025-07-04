@@ -82,6 +82,23 @@ nav a {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #b8b5d6;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
 
 h1{
