@@ -29,7 +29,7 @@ nav {
 nav a {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   text-decoration: none;
   margin: 0 1.5rem;
@@ -183,6 +183,7 @@ body {
   color: white;
   background-color: #352f5d;
   margin-top: 30px;
+  margin-bottom: 30px;
   width: 100vw;
   margin-left: -4vw;
   margin-right: -4vw;       
@@ -192,6 +193,9 @@ body {
   padding-top: 1vw;
   padding-bottom: 1vw;
 
+}
+.subsection a{
+  color: inherit;
 }
 
 .heading-inner {
