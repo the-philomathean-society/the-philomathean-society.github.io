@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision
+       | relative_url }}">
+  <link rel="stylesheet" href="/assets/base.css">
+  <meta name="viewport" content="width=device-width">
+<body>
+  <nav>
+    <ul class="nav-list">
+      <a href="/#/">Home</a>
+      <a href="/case-construction/">Case Construction</a>
+      <a href="/refutation/">Refutation</a>
+      <a href="/presentation/">Presentation</a>
+      <a href="/general-knowledge/">General Knowledge</a>
+      <a href="/drills/">Drills</a>
+      <a href="/parliamentary-debate/">Parliamentary Debate</a>
+    </ul>
+  </nav>
+
+  <main>
+  <div class="content">
+    <div class="pagetitle">Economics</div>
+    <hr style="border: none; height: 2px; background-color: #352f5d;">
+    <div class="section">Macroeconomics</div>
+    <hr style="border: none; height: 2px; background-color: #352f5d;">
+    <div class="subsection">
+        <a href="Supply and Demand/">Supply and Demand</a>
+        <a href="Unemployment + Minimum Wage/">Unemployment + Minimum Wage</a>
+        <a href="Economic Systems: Capitalism, Communism, and Socialism/">Economic Systems: Capitalism, Communism, and Socialism</a>
+        <a href="Schools of Thought: Keynesian vs. Classical/">Schools of Thought: Keynesian vs. Classical</a>
+        <a href="Fiscal and Monetary Policy/">Fiscal and Monetary Policy</a>
+    </div>
+    <hr style="border: none; height: 2px; background-color: #352f5d;">
+    <div class="section">Microeconomics</div>
+    <hr style="border: none; height: 2px; background-color: #352f5d;">
+    <div class="subsection">
+        <a href="Competition, Scarcity vs. Abundance, Opportunity Cost/">Competition, Scarcity vs. Abundance, Opportunity Cost</a>
+        <a href="Game Theory/">Game Theory</a>
+    </div>
+  </div>
+  </main>
+</body>
+</html>
