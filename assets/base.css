@@ -220,20 +220,24 @@ body {
 }
 
 table {
-  width: 70%;
-  border-collapse: collapse;
+    border-collapse: collapse;
+    align-content: center;
+    width: 85%;
+    margin: 32px auto;
   }
   
   th {
-  border: 2px solid #352f5d;
-  padding: 8px;
-  text-align: center;
-  font-weight: bold;
+    border: 2px solid #352f5d;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
   }
   td{
     border: 2px solid #352f5d;
     padding: 8px;
     text-align: left;
+     width: 50%;
   }
   ul {
     font-size: 1rem;
