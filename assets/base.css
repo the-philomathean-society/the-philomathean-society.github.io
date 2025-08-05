@@ -242,6 +242,9 @@ table {
   ul {
     font-size: 1rem;
   }
+  li {
+    font-size: 1rem;
+  }
 
 /* phone css settings */
 @media (max-width: 600px) {
