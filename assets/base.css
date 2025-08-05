@@ -219,6 +219,26 @@ body {
   height: auto;
 }
 
+table {
+  width: 70%;
+  border-collapse: collapse;
+  }
+  
+  th {
+  border: 2px solid #352f5d;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  }
+  td{
+    border: 2px solid #352f5d;
+    padding: 8px;
+    text-align: left;
+  }
+  ul {
+    font-size: 1rem;
+  }
+
 /* phone css settings */
 @media (max-width: 600px) {
   nav {
@@ -326,24 +346,5 @@ body {
     margin-bottom: 20px;
     margin-left: 5vw;
     margin-top: 2vw;
-  }
-  table {
-  width: 70%;
-  border-collapse: collapse;
-  }
-  
-  th {
-  border: 2px solid #352f5d;
-  padding: 8px;
-  text-align: center;
-  font-weight: bold;
-  }
-  td{
-    border: 2px solid #352f5d;
-    padding: 8px;
-    text-align: left;
-  }
-  ul {
-    font-size: 1rem;
   }
 }
