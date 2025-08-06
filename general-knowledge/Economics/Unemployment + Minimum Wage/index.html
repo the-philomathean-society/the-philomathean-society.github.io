@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision
+       | relative_url }}">
   <link rel="stylesheet" href="/assets/base.css">
-  <title>Unemployment and Minimum Wage - Economics</title>
-</head>
+  <meta name="viewport" content="width=device-width">
 <body>
+  <main>
   <nav>
-    <ul class="nav">
+    <ul class="nav-list">
       <a href="/#/">Home</a>
       <a href="/case-construction/">Case Construction</a>
       <a href="/refutation/">Refutation</a>
@@ -19,7 +21,6 @@
     </ul>
   </nav>
 
-  <main>
     <div class="content">
       <div class="pagetitle">Unemployment and Minimum Wage</div>
       <div class="text">An unemployed individual is someone actively searching for work. It is not everyone without work on the whole.</div>
