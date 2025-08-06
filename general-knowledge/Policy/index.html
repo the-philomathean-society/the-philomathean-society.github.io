@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/assets/base.css">
   <meta name="viewport" content="width=device-width">
 <body>
+  <main>
   <nav>
     <ul class="nav-list">
       <a href="/#/">Home</a>
@@ -19,114 +20,87 @@
       <a href="/parliamentary-debate/">Parliamentary Debate</a>
     </ul>
   </nav>
-  <div class="content">
-    <div class="pagetitle">Policy</div>
 
-    <div class="subsection">1. What is Policy Debate?</div>
+      <div class="content">
+      <div class="pagetitle">Policy</div>
 
-    <div class="section">Definition & Role in Parli</div>
-    <div class="text">Policy debate in Parliamentary (Parli) debate differs from traditional Policy debate formats. In Parli, policy often emerges when debaters advocate for or critique specific courses of action. A “policy” refers to a proposed plan of action by a governmental or institutional actor. Policy arguments often appear in “should” resolutions (e.g., “This House would ban private prisons.”)</div>
+      <div class="subsection">1. What is Policy Debate?</div>
+      <ul class="text">
+        <li><strong>Definition & Role in Parli</strong><br>
+          Policy debate in Parliamentary (Parli) debate differs from traditional Policy debate formats. In Parli, policy often emerges when debaters advocate for or critique specific courses of action.<br>
+          A “policy” refers to a proposed plan of action by a governmental or institutional actor.<br>
+          → Often appears in “should” resolutions (e.g., “This House would ban private prisons.”)
+        </li>
+        <li><strong>Why Policy Matters in Parli</strong><br>
+          → Gov teams build realistic, persuasive plans.<br>
+          → Opp teams critique feasibility, propose counterplans, or defend the status quo.
+        </li>
+      </ul>
 
-    <div class="section">Why Policy Matters in Parli</div>
-    <div class="text">Policy knowledge helps Government teams build realistic and persuasive plans of action. Opposition teams can use policy analysis to critique feasibility, propose counterplans, or defend the status quo.</div>
-    <div class="subsection">2. Core Concepts of Policy Analysis</div>
+      <div class="subsection">2. Core Concepts of Policy Analysis</div>
+      <ul class="text">
+        <li><strong>2.1 Cost-Benefit Analysis</strong><br>
+          → Are benefits > costs?<br>
+          • Consider scope, magnitude, probability<br>
+          • Quantify impacts: e.g. “Plan saves 5,000 lives/year” vs “Costs $1B annually”
+        </li>
+        <li><strong>2.2 Feasibility & Implementation</strong><br>
+          • Does the actor have jurisdiction (e.g. federal vs state)?<br>
+          • What are the resource/funding/enforcement requirements?
+        </li>
+        <li><strong>2.3 Solvency</strong><br>
+          • Does the plan solve the harm?<br>
+          • Test: mechanism → outcome (e.g., regulation, incentive, education)
+        </li>
+        <li><strong>2.4 Status Quo & Counterfactuals</strong><br>
+          • Status quo = current conditions<br>
+          • Counterfactual = what happens without plan<br>
+          Opp can:<br>
+          - Defend status quo<br>
+          - Offer counterplan<br>
+          - Argue change creates harms
+        </li>
+      </ul>
 
-    <div class="section">2.1 Cost-Benefit Analysis</div>
-    <div class="text">Evaluating whether the benefits of a policy outweigh the costs. A common framework for assessing comparative advantage between the plan and alternatives.</div>
-    <div class="text">Consider scope (how many affected), magnitude (severity), and probability (likelihood). Quantify impacts when possible: "Plan saves 5,000 lives per year," vs. "Costs $1 billion annually."</div>
+      <div class="subsection">3. Types of Policy Mechanisms</div>
+      <ul class="text">
+        <li><strong>3.1 Legislation:</strong> Passed by parliaments/legislatures (e.g., Clean Air Act). Requires alignment, enforced by law.</li>
+        <li><strong>3.2 Regulation:</strong> Created by executive agencies (EPA, FDA). More flexible than legislation.</li>
+        <li><strong>3.3 Incentives & Disincentives:</strong> Tax credits, fines, subsidies. Common in climate, health, education.</li>
+        <li><strong>3.4 Public Services & Programs:</strong> Direct provision (e.g., Medicare, public schools). Opp may argue inefficiency or favor private alternatives.</li>
+        <li><strong>3.5 International Policy Tools:</strong> Diplomacy, sanctions, aid. Used in foreign policy, global health, security.</li>
+      </ul>
 
-    <div class="section">2.2 Feasibility & Implementation</div>
-    <div class="text">Key questions: Can the plan be realistically enacted? Consider legal authority (e.g., federal vs. state), resource requirements (funding, labor, infrastructure), and enforcement capacity.</div>
+      <div class="subsection">4. How to Debate Policy Effectively</div>
+      <ul class="text">
+        <li><strong>4.1 Writing a Solid Plan Text (Gov)</strong><br>
+          Include:<br>
+          - Agent: Who acts<br>
+          - Mandate: What they do<br>
+          - Enforcement: How it’s ensured<br>
+          - Funding: How it’s paid for
+        </li>
+        <li><strong>4.2 Testing Policy Proposals (Opp)</strong><br>
+          Use disadvantages: economic harm, rights violation, instability<br>
+          Present counterplans with better solvency or cost
+        </li>
+        <li><strong>4.3 Framing and Impact Calculus (Both)</strong><br>
+          Prioritize impacts by:<br>
+          - Time frame (which happens first)<br>
+          - Magnitude (severity)<br>
+          - Probability (likelihood)<br>
+          - Reversibility (permanence)
+        </li>
+      </ul>
 
-    <div class="section">2.3 Solvency</div>
-    <div class="text">How well does the plan address the stated harm? Test whether the mechanism leads to the desired outcome. Common mechanisms: Regulation (bans, mandates), incentives (grants, tax cuts), education (public awareness).</div>
-
-    <div class="section">2.4 Status Quo & Counterfactuals</div>
-    <div class="text">Status quo: Existing conditions without the plan. Counterfactual: What would happen instead of the plan.</div>
-    <div class="text">Opp can: defend the status quo ("Current policy is improving"), present a counterplan ("Here’s a better way to solve it"), or argue that change creates new harms or instability.</div>
-
-    <div class="subsection">3. Types of Policy Mechanisms</div>
-
-    <div class="section">3.1 Legislation</div>
-    <div class="text">Laws passed by parliaments or legislatures (e.g., Clean Air Act, Affordable Care Act). Often requires strong political alignment to pass and is enforced through legal systems.</div>
-
-    <div class="section">3.2 Regulation</div>
-    <div class="text">Rules by executive agencies (e.g., EPA, FDA, SEC). Usually more flexible and easier to implement than legislation. Gov can use regulation to avoid legislative gridlock.</div>
-
-    <div class="section">3.3 Incentives & Disincentives</div>
-    <div class="text">Incentives: Tax credits, subsidies, grants. Disincentives: Fines, penalties, sin taxes. Common in climate, health, and education policy. Evaluate effectiveness and unintended effects.</div>
-
-    <div class="section">3.4 Public Services & Programs</div>
-    <div class="text">Direct provision: Medicare, public schools, infrastructure. Opp teams can argue inefficiency, bureaucracy, or the value of private alternatives.</div>
-
-    <div class="section">3.5 International Policy Tools</div>
-    <div class="text">Diplomacy: Treaties, trade deals. Coercion: Sanctions, tariffs, embargoes. Development aid: Financial or logistical support. Key in foreign policy, security, and global health debates.</div>
-
-    <div class="subsection">4. How to Debate Policy Effectively</div>
-
-    <div class="section">4.1 Writing a Solid Plan Text (Gov)</div>
-    <div class="text">Include:  
-      <ul>
-        <li>Agent – Who enacts the plan</li>
-        <li>Mandate – What the plan does</li>
-        <li>Enforcement – How compliance is ensured</li>
-        <li>Funding – How it’s paid for</li>
+      <div class="subsection">5. Recommended Resources</div>
+      <ul class="text">
+        <li><strong>5.1 News & Analysis:</strong> <a href="https://www.politico.com/">Politico</a>, <a href="https://www.bbc.com/news/world">BBC World</a>, <a href="https://www.brookings.edu/">Brookings</a>, <a href="https://www.cfr.org/">CFR</a></li>
+        <li><strong>5.2 Research Tools:</strong> <a href="https://www.govtrack.us/">govtrack.us</a>, <a href="https://www.cbo.gov/">CBO</a>, <a href="https://www.worldbank.org/">World Bank</a></li>
+        <li><strong>5.3 Think Tanks:</strong> Heritage Foundation, Center for American Progress, RAND Corp</li>
+        <li><strong>5.4 Podcasts:</strong> <a href="https://www.vox.com/today-explained-podcast">Today Explained</a>, <a href="https://www.nytimes.com/column/the-daily">The Daily</a>, <a href="https://www.npr.org/sections/money/">Planet Money</a></li>
       </ul>
     </div>
-
-    <div class="section">4.2 Testing Policy Proposals (Opp)</div>
-    <div class="text">Use disadvantages such as:  
-      <ul>
-        <li>Economic harms</li>
-        <li>Rights violations</li>
-        <li>Political backlash</li>
-        <li>Geopolitical instability</li>
-      </ul>
-    </div>
-    <div class="text">Opp teams can offer a counterplan, defend status quo improvements, or argue plan redundancy.</div>
-
-    <div class="section">4.3 Framing and Impact Calculus (Both Sides)</div>
-    <div class="text">Prioritize impacts by:
-      <ul>
-        <li>Time frame – Which impacts happen first?</li>
-        <li>Magnitude – Which affect more people or more severely?</li>
-        <li>Probability – Which are more likely to occur?</li>
-        <li>Reversibility – Which impacts are permanent?</li>
-      </ul>
-    </div>
-
-    <div class="subsection">5. Recommended Resources</div>
-
-    <div class="section">5.1 News and Analysis</div>
-    <div class="text">Politico, BBC World, Brookings Institution, Council on Foreign Relations</div>
-
-    <div class="section">5.2 Research Tools</div>
-    <div class="text">
-      <ul>
-        <li><a href="https://www.govtrack.us" target="_blank">GovTrack.us</a></li>
-        <li><a href="https://www.cbo.gov" target="_blank">Congressional Budget Office</a></li>
-        <li><a href="https://data.worldbank.org" target="_blank">World Bank</a></li>
-      </ul>
-    </div>
-
-    <div class="section">5.3 Think Tanks</div>
-    <div class="text">
-      <ul>
-        <li>Heritage Foundation (conservative)</li>
-        <li>Center for American Progress (liberal)</li>
-        <li>RAND Corporation (nonpartisan)</li>
-      </ul>
-    </div>
-
-    <div class="section">5.4 Podcasts & Videos</div>
-    <div class="text">
-      <ul>
-        <li><a href="https://www.vox.com/today-explained-podcast" target="_blank">Today Explained – Vox</a></li>
-        <li><a href="https://www.nytimes.com/column/the-daily" target="_blank">The Daily – NYT</a></li>
-        <li><a href="https://www.npr.org/sections/money/" target="_blank">Planet Money – NPR</a></li>
-      </ul>
-    </div>
-
-
+  </main>
 </body>
 </html>
