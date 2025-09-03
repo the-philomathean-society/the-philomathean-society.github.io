@@ -19,7 +19,7 @@
       font-size: 1.5em;
       border-top: 2px solid #362c59;
       border-bottom: 2px solid #362c59;
-      padding: 0.5em 0;
+      padding: 0.5em 2em;
       margin: 1.5em 0 0.5em;
       color: #362c59;
       text-align: left;
@@ -31,10 +31,11 @@
       color: white !important;
       font-weight: 700;
       padding: 12px 16px;
-      margin: 8px 0;
       font-size: 1.1em;
       border-top: 6px solid white;
       text-decoration: none;
+      width: 100vw;
+      margin-left: calc(-1 * (100vw - 100%) / 2); /* extend full-width inside centered container */
     }
 
     .static-header-link:hover {
@@ -43,6 +44,8 @@
 
     .content {
       padding: 2em;
+      max-width: 960px;
+      margin: 0 auto;
     }
 
     .nav-list a {
