@@ -1,117 +1,108 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Framework (FW) Cheat Sheet</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    /* Your existing CSS would be placed here */
-  </style>
-</head>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision
+       | relative_url }}">
+  <link rel="stylesheet" href="/assets/base.css">
+  <meta name="viewport" content="width=device-width">
 <body>
+  <main>
   <nav>
-    <ul class="nav-list">
-      <li><a href="/#/">Home</a></li>
-      <li><a href="/case-construction/">Case Construction</a></li>
-      <li><a href="/refutation/">Refutation</a></li>
-      <li><a href="/presentation/">Presentation</a></li>
-      <li><a href="/general-knowledge/">General Knowledge</a></li>
-      <li><a href="/drills/">Drills</a></li>
-      <li><a href="/parliamentary-debate/">Parliamentary Debate</a></li>
+    <ul class="nav">
+      <a href="/#/">Home</a>
+      <a href="/case-construction/">Case Construction</a>
+      <a href="/refutation/">Refutation</a>
+      <a href="/presentation/">Presentation</a>
+      <a href="/general-knowledge/">General Knowledge</a>
+      <a href="/drills/">Drills</a>
+      <a href="/parliamentary-debate/">Parliamentary Debate</a>
     </ul>
   </nav>
 
-  <main class="main-section">
-    <div class="content">
-      <h1 class="pagetitle">Framework (FW) Cheat Sheet</h1>
-      <div class="text" style="text-align: center; font-style: italic;">
-        Often abbreviated to "FW" in flow
-      </div>
+  <main class="content">
+    <div class="pagetitle">Framework (FW) Cheat Sheet</div>
 
-      <section>
-        <h2 class="subsection">What is a Framework?</h2>
-        <div class="text">
-          A framework defines how a judge should evaluate the round. It establishes:
-          <ol class="text">
-            <li><strong>Standards:</strong> the criteria for evaluating arguments and the angle of the debate</li>
-            <li><strong>Prioritization:</strong> the order of importance of arguments and impacts</li>
-            <li><strong>Scope:</strong> the bounds of the debate (e.g., morality, practicality, legality, etc.)</li>
-          </ol>
-        </div>
-      </section>
+    <div class="text">Often abbreviated to “FW” in flow.</div>
 
-      <section>
-        <h2 class="subsection">Questions to ask when developing a framework:</h2>
-        <ul class="text">
-          <li>What is the primary goal of the debate?</li>
-          <li>Should the debate focus on morality, practicality, legality, or another metric?</li>
-          <li>How will this framework guide the judge in evaluating the round?</li>
-          <li>Is this framework accessible to the judge, or does it require specialized knowledge?</li>
-          <li><strong>KEEP IN MIND:</strong> What is favorable to my side but still appears fair to the other side?</li>
-        </ul>
-      </section>
+    <div class="subsection">What is a Framework?</div>
+    <div class="text">
+      A framework defines how a judge should evaluate the round. It establishes:
+      <ul>
+        <li><strong>Standards</strong>: the criteria for evaluating arguments and the angle of the debate</li>
+        <li><strong>Prioritization</strong>: the order of importance of arguments and impacts</li>
+        <li><strong>Scope</strong>: the bounds of the debate (e.g., morality, practicality, legality, etc.)</li>
+      </ul>
+    </div>
 
-      <section>
-        <h2 class="subsection">Presenting a framework:</h2>
-        <div class="text">
-          Introduced at the beginning of a constructive, after intro and before points
-          <ol class="text">
-            <li><strong>Clearly define your framework:</strong> explain what it means and why it matters</li>
-            <li><strong>Justify the framework:</strong> Use philosophy, common sense, or debate norms</li>
-            <li><strong>Apply the framework:</strong> throughout all of your impacts, connect to how it weighs under the framework</li>
-          </ol>
-        </div>
-      </section>
+    <div class="subsection">Questions to Ask When Developing a Framework</div>
+    <div class="text">
+      <ul>
+        <li>What is the primary goal of the debate?</li>
+        <li>Should the debate focus on morality, practicality, legality, or another metric?</li>
+        <li>How will this framework guide the judge in evaluating the round?</li>
+        <li>Is this framework accessible to the judge, or does it require specialized knowledge?</li>
+        <li><strong>KEEP IN MIND:</strong> What is favorable to my side but still appears fair to the other side?</li>
+      </ul>
+    </div>
 
-      <section>
-        <h2 class="subsection">Clash of Frameworks:</h2>
-        <div class="text">
-          If both sides present frameworks:
-          <ul class="text">
-            <li>Show why your framework is superior (e.g., more inclusive, universal, better logic, etc.)</li>
-            <li>OR</li>
-            <li>How your arguments win under both frameworks</li>
-          </ul>
-        </div>
-      </section>
+    <div class="subsection">Presenting a Framework</div>
+    <div class="text">
+      Introduced at the beginning of a constructive, after intro and before points:
+      <ol>
+        <li>Clearly define your framework: explain what it means and why it matters</li>
+        <li>Justify the framework: Use philosophy, common sense, or debate norms</li>
+        <li>Apply the framework: throughout all of your impacts, connect to how it weighs under the framework</li>
+      </ol>
+    </div>
 
-      <section>
-        <h2 class="subsection">Common Frameworks:</h2>
-        
-        <div class="text" style="margin-left: 2rem;">
-          <h3 style="font-family: 'Cormorant Garamond'; color: #352f5d; margin-top: 1.5rem;">Utilitarianism:</h3>
-          <p>The greatest good for the greatest number</p>
-          <p><strong>Tips:</strong></p>
-          <ul>
-            <li>Quantify impacts and outweigh using weighing mechanisms, usually magnitude and scope</li>
-            <li><em>Note:</em> Utilitarianism is the default if no framework is given in a round.</li>
-          </ul>
-        </div>
+    <div class="subsection">Clash of Frameworks</div>
+    <div class="text">
+      If both sides present frameworks:
+      <ul>
+        <li>Show why your framework is superior (e.g., more inclusive, universal, better logic, etc.)</li>
+        <li>Or show how your arguments win under both frameworks</li>
+      </ul>
+    </div>
 
-        <div class="text" style="margin-left: 2rem;">
-          <h3 style="font-family: 'Cormorant Garamond'; color: #352f5d; margin-top: 1.5rem;">Deontology:</h3>
-          <p>Moral duties, often regardless of outcomes</p>
-          <p><strong>Tips:</strong></p>
+    <div class="subsection">Common Frameworks</div>
+    <div class="section">Utilitarianism: The greatest good for the greatest number</div>
+    <div class="text">
+      <ul>
+        <li>Tips: quantify impacts and outweigh using weighing mechanisms, usually magnitude and scope</li>
+        <li>Note: Utilitarianism is the default if no framework is given in a round.</li>
+      </ul>
+    </div>
+
+    <div class="section">Deontology: Moral duties, often regardless of outcomes</div>
+    <div class="text">
+      <ul>
+        <li>Tips:
           <ul>
             <li>Defend the universality of the principle</li>
             <li>Argue why moral obligations outweigh practical consequences, or manifest in practical benefits</li>
           </ul>
-        </div>
+        </li>
+      </ul>
+    </div>
 
-        <div class="text" style="margin-left: 2rem;">
-          <h3 style="font-family: 'Cormorant Garamond'; color: #352f5d; margin-top: 1.5rem;">Social-Contract:</h3>
-          <p>Societal obligations and agreements (e.g., democracy, constitutional rights)</p>
-          <p><strong>Tips:</strong></p>
+    <div class="section">Social Contract: Societal obligations and agreements</div>
+    <div class="text">
+      <ul>
+        <li>Tips:
           <ul>
             <li>Link obligations of governments to their constituents</li>
             <li>Emphasize fairness and societal trust</li>
-            <li>Link nations to their international obligations (ex. The US as a superpower)</li>
+            <li>Link nations to their international obligations (ex: The US as a superpower)</li>
           </ul>
-        </div>
-      </section>
+        </li>
+      </ul>
     </div>
   </main>
 
+  <footer class="footer-bar">
+    © Your Site Name — All rights reserved.
+  </footer>
 </body>
 </html>
