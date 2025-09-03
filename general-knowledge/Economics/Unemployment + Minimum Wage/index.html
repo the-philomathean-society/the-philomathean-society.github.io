@@ -7,6 +7,30 @@
        | relative_url }}">
   <link rel="stylesheet" href="/assets/base.css">
   <meta name="viewport" content="width=device-width">
+  <style>
+  table th, table td {
+    vertical-align: top;
+    padding: 12px;
+    text-align: left;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  /* Column widths: Argument = 20%, Strength + Rebuttals = 40% each */
+  table th:first-child,
+  table td:first-child {
+    width: 20%;
+  }
+
+  table th:nth-child(2),
+  table td:nth-child(2),
+  table th:nth-child(3),
+  table td:nth-child(3) {
+    width: 40%;
+  }
+</style>
 <body>
   <main>
   <nav>
