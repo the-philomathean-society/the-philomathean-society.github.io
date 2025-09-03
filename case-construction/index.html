@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision
+       | relative_url }}">
   <link rel="stylesheet" href="/assets/base.css">
-  <title>Framework Cheat Sheet</title>
-</head>
+  <meta name="viewport" content="width=device-width">
 <body>
+  <main>
   <nav>
     <ul class="nav-list">
       <a href="/#/">Home</a>
@@ -20,88 +21,30 @@
     </ul>
   </nav>
 
-  <main class="content">
-    <div class="pagetitle">Framework (FW) Cheat Sheet</div>
-
-    <div class="text">Often abbreviated to “FW” in flow.</div>
-
-    <div class="subsection">What is a Framework?</div>
-    <div class="text">
-      A framework defines how a judge should evaluate the round. It establishes:
-      <ul>
-        <li><strong>Standards</strong>: the criteria for evaluating arguments and the angle of the debate</li>
-        <li><strong>Prioritization</strong>: the order of importance of arguments and impacts</li>
-        <li><strong>Scope</strong>: the bounds of the debate (e.g., morality, practicality, legality, etc.)</li>
-      </ul>
+  <div class="content">
+    <div class="pagetitle">Case Construction</div>
+    <hr style="border: none; height: 2px; background-color: #352f5d;">
+    <div class="subsection">
+        <a href="Framework/">Framework</a>
     </div>
-
-    <div class="subsection">Questions to Ask When Developing a Framework</div>
-    <div class="text">
-      <ul>
-        <li>What is the primary goal of the debate?</li>
-        <li>Should the debate focus on morality, practicality, legality, or another metric?</li>
-        <li>How will this framework guide the judge in evaluating the round?</li>
-        <li>Is this framework accessible to the judge, or does it require specialized knowledge?</li>
-        <li><strong>KEEP IN MIND:</strong> What is favorable to my side but still appears fair to the other side?</li>
-      </ul>
+    <div class="subsection">
+      <a href="Burdens of Proof (Side Government)/">Burdens of Proof (Side Government)</a>
     </div>
-
-    <div class="subsection">Presenting a Framework</div>
-    <div class="text">
-      Introduced at the beginning of a constructive, after intro and before points:
-      <ol>
-        <li>Clearly define your framework: explain what it means and why it matters</li>
-        <li>Justify the framework: Use philosophy, common sense, or debate norms</li>
-        <li>Apply the framework: throughout all of your impacts, connect to how it weighs under the framework</li>
-      </ol>
+    <div class="subsection">
+      <a href="Analysis/">Analysis</a>
     </div>
-
-    <div class="subsection">Clash of Frameworks</div>
-    <div class="text">
-      If both sides present frameworks:
-      <ul>
-        <li>Show why your framework is superior (e.g., more inclusive, universal, better logic, etc.)</li>
-        <li>Or show how your arguments win under both frameworks</li>
-      </ul>
+    <div class="subsection">
+        <a href="Significance/">Significance</a>
     </div>
-
-    <div class="subsection">Common Frameworks</div>
-    <div class="section">Utilitarianism: The greatest good for the greatest number</div>
-    <div class="text">
-      <ul>
-        <li>Tips: quantify impacts and outweigh using weighing mechanisms, usually magnitude and scope</li>
-        <li>Note: Utilitarianism is the default if no framework is given in a round.</li>
-      </ul>
+    <div class="subsection">
+      <a href="Principal & Practical Arguments/">Principal & Practical Arguments</a>
     </div>
-
-    <div class="section">Deontology: Moral duties, often regardless of outcomes</div>
-    <div class="text">
-      <ul>
-        <li>Tips:
-          <ul>
-            <li>Defend the universality of the principle</li>
-            <li>Argue why moral obligations outweigh practical consequences, or manifest in practical benefits</li>
-          </ul>
-        </li>
-      </ul>
+    <div class="subsection">
+      <a href="Plans & Counterplans/">Plans & Counterplans</a>
     </div>
-
-    <div class="section">Social Contract: Societal obligations and agreements</div>
-    <div class="text">
-      <ul>
-        <li>Tips:
-          <ul>
-            <li>Link obligations of governments to their constituents</li>
-            <li>Emphasize fairness and societal trust</li>
-            <li>Link nations to their international obligations (ex: The US as a superpower)</li>
-          </ul>
-        </li>
-      </ul>
+    <hr style="border: none; height: 2px; background-color: #352f5d;">
     </div>
-  </main>
-
-  <footer class="footer-bar">
-    © Your Site Name — All rights reserved.
-  </footer>
+  </div>
 </body>
 </html>
+
