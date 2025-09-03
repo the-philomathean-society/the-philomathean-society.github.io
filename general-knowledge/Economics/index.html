@@ -1,67 +1,99 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision
-       | relative_url }}">
+  <title>Economics</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/base.css">
-  <meta name="viewport" content="width=device-width">
-<body>
-  <nav>
-    <ul class="nav-list">
-      <a href="/#/">Home</a>
-      <a href="/case-construction/">Case Construction</a>
-      <a href="/refutation/">Refutation</a>
-      <a href="/presentation/">Presentation</a>
-      <a href="/general-knowledge/">General Knowledge</a>
-      <a href="/drills/">Drills</a>
-      <a href="/parliamentary-debate/">Parliamentary Debate</a>
-    </ul>
-  </nav>
+  <style>
+    .pagetitle {
+      text-align: center;
+      font-size: 2em;
+      margin-top: 1.5em;
+      margin-bottom: 1em;
+      color: #362c59;
+    }
 
+    .sectiontitle {
+      font-size: 1.5em;
+      border-top: 2px solid #362c59;
+      border-bottom: 2px solid #362c59;
+      padding: 0.5em 0;
+      margin: 1.5em 0 0.5em;
+      color: #362c59;
+      text-align: left;
+    }
+
+    .static-header-link {
+      display: block;
+      background-color: #362c59;
+      color: white !important;
+      font-weight: 700;
+      padding: 12px 16px;
+      margin: 8px 0;
+      font-size: 1.1em;
+      border-top: 6px solid white;
+      text-decoration: none;
+    }
+
+    .static-header-link:hover {
+      background-color: #2c234a;
+    }
+
+    .content {
+      padding: 2em;
+    }
+
+    .nav-list a {
+      margin-right: 15px;
+      color: white;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f2f1f9;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #362c59;
+      padding: 1em;
+    }
+  </style>
+</head>
+
+<body>
   <main>
-  <div class="content">
-    <div class="pagetitle">Economics</div>
-    <hr style="border: none; height: 2px; background-color: #352f5d;">
-    <div class="section">Macroeconomics</div>
-    <hr style="border: none; height: 2px; background-color: #352f5d;">
-  
-    <div class="subsection">
-        <a href="Supply and Demand/">Supply and Demand</a>
+    <nav>
+      <ul class="nav-list">
+        <a href="/#/">Home</a>
+        <a href="/case-construction/">Case Construction</a>
+        <a href="/refutation/">Refutation</a>
+        <a href="/presentation/">Presentation</a>
+        <a href="/general-knowledge/">General Knowledge</a>
+        <a href="/drills/">Drills</a>
+        <a href="/parliamentary-debate/">Parliamentary Debate</a>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <div class="pagetitle">ECONOMICS</div>
+
+      <div class="sectiontitle">MACROECONOMICS</div>
+      <a href="/supply-and-demand/" class="static-header-link">Supply and Demand</a>
+      <a href="/unemployment-minimum-wage/" class="static-header-link">Unemployment + Minimum Wage</a>
+      <a href="/economic-systems/" class="static-header-link">Economic Systems: Capitalism, Communism, and Socialism</a>
+      <a href="/keynesian-vs-classical/" class="static-header-link">Schools of Thought: Keynesian vs. Classical</a>
+      <a href="/fiscal-and-monetary-policy/" class="static-header-link">Fiscal and Monetary Policy</a>
+
+      <div class="sectiontitle">MICROECONOMICS</div>
+      <a href="/competition-scarcity-opportunity-cost/" class="static-header-link">Competition, Scarcity vs. Abundance, Opportunity Cost</a>
+      <a href="/game-theory/" class="static-header-link">Game Theory</a>
     </div>
-    
-  </div class="subsection">
-        <a href="Unemployment + Minimum Wage/">Unemployment + Minimum Wage</a>
-  </div>
-    
-  </div class="subsection">
-        <a href="Economic Systems: Capitalism, Communism, and Socialism/">Economic Systems: Capitalism, Communism, and Socialism</a>
-  </div>
-    
-  </div class="subsection">
-        <a href="Schools of Thought: Keynesian vs. Classical/">Schools of Thought: Keynesian vs. Classical</a>
-  </div>
-    
-  </div class="subsection">
-        <a href="Fiscal and Monetary Policy/">Fiscal and Monetary Policy</a>
-  </div>
- 
-    </div>
-    <hr style="border: none; height: 2px; background-color: #352f5d;">
-    <div class="section">Microeconomics</div>
-    <hr style="border: none; height: 2px; background-color: #352f5d;">
-  
-    <div class="subsection">
-        <a href="Competition, Scarcity vs. Abundance, Opportunity Cost/">Competition, Scarcity vs. Abundance, Opportunity Cost</a>
-    </div>
-  
-  </div class="subsection">
-        <a href="Game Theory/">Game Theory</a>
-  </div>
-    
-    </div>
-  </div>
   </main>
 </body>
 </html>
