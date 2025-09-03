@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision
+       | relative_url }}">
   <link rel="stylesheet" href="/assets/base.css">
-  <title>Keynesian vs Classical - Economics</title>
+  <meta name="viewport" content="width=device-width">
   <style>
-    table th, table td {
-      vertical-align: top;
-      padding: 12px;
-      text-align: left;
-    }
-    table {
-      width: 100%;
-    }
-    table th:first-child,
-    table td:first-child {
-      width: 20%;
-    }
-    table th:nth-child(2),
-    table td:nth-child(2),
-    table th:nth-child(3),
-    table td:nth-child(3) {
-      width: 40%;
-    }
-    .media {
-      display: block;
-      margin: 20px auto;
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
-</head>
+  table th, table td {
+    vertical-align: top;
+    padding: 12px;
+    text-align: left;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  /* Column widths: Argument = 20%, Strength + Rebuttals = 40% each */
+  table th:first-child,
+  table td:first-child {
+    width: 20%;
+  }
+
+  table th:nth-child(2),
+  table td:nth-child(2),
+  table th:nth-child(3),
+  table td:nth-child(3) {
+    width: 40%;
+  }
+</style>
 <body>
+  <main>
   <nav>
-    <ul class="nav">
+    <ul class="nav-list">
       <a href="/#/">Home</a>
       <a href="/case-construction/">Case Construction</a>
       <a href="/refutation/">Refutation</a>
@@ -44,8 +44,7 @@
       <a href="/parliamentary-debate/">Parliamentary Debate</a>
     </ul>
   </nav>
-
-  <main>
+    
     <div class="content">
       <div class="pagetitle">Schools of Thought: Keynesian vs. Classical</div>
 
