@@ -16,30 +16,32 @@
     }
 
     .sectiontitle {
-      font-size: 1.5em;
+      font-size: 1.8em;
       border-top: 2px solid #362c59;
       border-bottom: 2px solid #362c59;
-      padding: 0.5em 2em;
+      padding: 0.75em 2em;
       margin: 1.5em 0 0.5em;
       color: #362c59;
       text-align: left;
     }
 
-    .static-header-link {
-      display: block;
+    .subsection {
+      font-size: 1.3em;
+      font-weight: bold;
       background-color: #362c59;
-      color: white !important;
-      font-weight: 700;
-      padding: 12px 16px;
-      font-size: 1.1em;
-      border-top: 6px solid white;
-      text-decoration: none;
-      width: 100vw;
-      margin-left: calc(-1 * (100vw - 100%) / 2); /* extend full-width */
+      padding: 14px 20px;
+      color: white;
+      margin: 0;
     }
 
-    .static-header-link:hover {
-      background-color: #2c234a;
+    .subsection a {
+      color: white;
+      text-decoration: none;
+      font-size: inherit;
+    }
+
+    .subsection a:hover {
+      text-decoration: underline;
     }
 
     .content {
@@ -66,36 +68,6 @@
       background-color: #362c59;
       padding: 1em;
     }
-
-    .subsection {
-      display: block;
-      background-color: #362c59;
-      color: white;
-      font-weight: 700;
-      padding: 12px 16px;
-      font-size: 1.1em;
-      border-top: 6px solid white;
-      text-decoration: none;
-      width: 100vw;
-      margin-left: calc(-1 * (100vw - 100%) / 2);
-    }
-
-    .subsection a {
-      color: white;
-      text-decoration: none;
-    }
-
-    .subsection a:hover {
-      text-decoration: underline;
-    }
-
-    hr.full-divider {
-      border: none;
-      height: 2px;
-      background-color: #352f5d;
-      width: 100%;
-      margin: 2em 0;
-    }
   </style>
 </head>
 
@@ -112,31 +84,29 @@
       </ul>
     </nav>
 
-    <div class="pagetitle">ECONOMICS</div>
-
-    <!-- 🌐 MACROECONOMICS (full-width) -->
-    <div class="sectiontitle">MACROECONOMICS</div>
-
-    <div class="subsection">
-      <a href="Supply and Demand/">Supply and Demand</a>
-    </div>
-    <div class="subsection">
-      <a href="Unemployment + Minimum Wage/">Unemployment + Minimum Wage</a>
-    </div>
-    <div class="subsection">
-      <a href="Economic Systems: Capitalism, Communism, and Socialism/">Economic Systems: Capitalism, Communism, and Socialism</a>
-    </div>
-    <div class="subsection">
-      <a href="Schools of Thought: Keynesian vs. Classical/">Schools of Thought: Keynesian vs. Classical</a>
-    </div>
-    <div class="subsection">
-      <a href="Fiscal and Monetary Policy/">Fiscal and Monetary Policy</a>
-    </div>
-
-    <hr class="full-divider">
-
-    <!-- 📦 MICROECONOMICS (inside content block) -->
     <div class="content">
+      <div class="pagetitle">ECONOMICS</div>
+
+      <div class="sectiontitle">MACROECONOMICS</div>
+
+      <div class="subsection">
+        <a href="Supply and Demand/">Supply and Demand</a>
+      </div>
+      <div class="subsection">
+        <a href="Unemployment + Minimum Wage/">Unemployment + Minimum Wage</a>
+      </div>
+      <div class="subsection">
+        <a href="Economic Systems: Capitalism, Communism, and Socialism/">Economic Systems: Capitalism, Communism, and Socialism</a>
+      </div>
+      <div class="subsection">
+        <a href="Schools of Thought: Keynesian vs. Classical/">Schools of Thought: Keynesian vs. Classical</a>
+      </div>
+      <div class="subsection">
+        <a href="Fiscal and Monetary Policy/">Fiscal and Monetary Policy</a>
+      </div>
+
+      <hr style="border: none; height: 2px; background-color: #352f5d;">
+
       <div class="sectiontitle">MICROECONOMICS</div>
 
       <div class="subsection">
@@ -146,7 +116,7 @@
         <a href="Game Theory/">Game Theory</a>
       </div>
 
-      <hr class="full-divider">
+      <hr style="border: none; height: 2px; background-color: #352f5d;">
     </div>
   </main>
 </body>
