@@ -35,7 +35,7 @@
       border-top: 6px solid white;
       text-decoration: none;
       width: 100vw;
-      margin-left: calc(-1 * (100vw - 100%) / 2); /* extend full-width inside centered container */
+      margin-left: calc(-1 * (100vw - 100%) / 2); /* extend full-width */
     }
 
     .static-header-link:hover {
@@ -66,6 +66,36 @@
       background-color: #362c59;
       padding: 1em;
     }
+
+    .subsection {
+      display: block;
+      background-color: #362c59;
+      color: white;
+      font-weight: 700;
+      padding: 12px 16px;
+      font-size: 1.1em;
+      border-top: 6px solid white;
+      text-decoration: none;
+      width: 100vw;
+      margin-left: calc(-1 * (100vw - 100%) / 2);
+    }
+
+    .subsection a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .subsection a:hover {
+      text-decoration: underline;
+    }
+
+    hr.full-divider {
+      border: none;
+      height: 2px;
+      background-color: #352f5d;
+      width: 100%;
+      margin: 2em 0;
+    }
   </style>
 </head>
 
@@ -82,13 +112,13 @@
       </ul>
     </nav>
 
-    <div class="content">
-      <div class="pagetitle">ECONOMICS</div>
+    <div class="pagetitle">ECONOMICS</div>
 
-      <div class="sectiontitle">MACROECONOMICS</div>
-      
-      <div class="subsection">
-        <a href="Supply and Demand/">Supply and Demand</a>
+    <!-- 🌐 MACROECONOMICS (full-width) -->
+    <div class="sectiontitle">MACROECONOMICS</div>
+
+    <div class="subsection">
+      <a href="Supply and Demand/">Supply and Demand</a>
     </div>
     <div class="subsection">
       <a href="Unemployment + Minimum Wage/">Unemployment + Minimum Wage</a>
@@ -97,22 +127,26 @@
       <a href="Economic Systems: Capitalism, Communism, and Socialism/">Economic Systems: Capitalism, Communism, and Socialism</a>
     </div>
     <div class="subsection">
-        <a href="Schools of Thought: Keynesian vs. Classical/">Schools of Thought: Keynesian vs. Classical</a>
+      <a href="Schools of Thought: Keynesian vs. Classical/">Schools of Thought: Keynesian vs. Classical</a>
     </div>
     <div class="subsection">
       <a href="Fiscal and Monetary Policy/">Fiscal and Monetary Policy</a>
     </div>
-    <hr style="border: none; height: 2px; background-color: #352f5d;">
-    </div>
+
+    <hr class="full-divider">
+
+    <!-- 📦 MICROECONOMICS (inside content block) -->
+    <div class="content">
       <div class="sectiontitle">MICROECONOMICS</div>
-       <div class="subsection">
+
+      <div class="subsection">
         <a href="Competition, Scarcity vs. Abundance, Opportunity Cost/">Competition, Scarcity vs. Abundance, Opportunity Cost</a>
-    </div>
-    <div class="subsection">
-      <a href="Game Theory/">Game Theory</a>
-    </div>
-    <hr style="border: none; height: 2px; background-color: #352f5d;">
-    </div>
+      </div>
+      <div class="subsection">
+        <a href="Game Theory/">Game Theory</a>
+      </div>
+
+      <hr class="full-divider">
     </div>
   </main>
 </body>
