@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Debate Format</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision
+       | relative_url }}">
   <link rel="stylesheet" href="/assets/base.css">
-  <style>
-    main {
-      padding: 20px 40px;
-    }
-    nav ul.nav-list {
-      list-style-type: none;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    nav ul.nav-list a {
-      text-decoration: none;
-    }
-  </style>
-</head>
+  <meta name="viewport" content="width=device-width">
+<body>
+  <main>
+  <nav>
+    <ul class="nav-list">
+      <a href="/#/">Home</a>
+      <a href="/case-construction/">Case Construction</a>
+      <a href="/refutation/">Refutation</a>
+      <a href="/presentation/">Presentation</a>
+      <a href="/general-knowledge/">General Knowledge</a>
+      <a href="/parliamentary-debate/">Parliamentary Debate</a>
+    </ul>
+  </nav>
 
 <body>
   <main>
