@@ -248,17 +248,14 @@ table {
 
 /* phone css settings */
 @media (max-width: 600px) {
-  nav {
+    nav {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch; 
+    justify-content: flex-start;
     text-align: center;
     height: auto;
     padding: 0.5rem 0;
-    width: 100%;       
-    box-sizing: border-box; 
-    overflow: visible;
-  }
+    width: 100vw;   
   nav a {
     margin: 0.5rem 0;
     font-size: 1rem;
